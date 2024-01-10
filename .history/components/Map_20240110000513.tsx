@@ -2,6 +2,7 @@ import {MapContainer, TileLayer, Marker, Popup, Polyline, Circle, CircleMarker} 
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet';
 
+
 const icon = L.icon({ 
     iconUrl: "images/starfish.png",
     iconSize: [30, 30] 
