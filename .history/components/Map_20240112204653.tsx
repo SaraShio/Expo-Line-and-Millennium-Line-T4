@@ -84,7 +84,7 @@ const Map = () => {
           justifyContent: "center",
           alignItems: "center",
           fontSize: 40,
-          margin:20
+          margin
         }}
       >
         <img src="images/logo.png" style={{ width: 50, marginRight: 10 }} />

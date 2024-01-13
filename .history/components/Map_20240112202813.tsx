@@ -9,7 +9,7 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 const icon = L.icon({
-  iconUrl: "images/bus-stop.png",
+  iconUrl: "images/starfish.png",
   iconSize: [30, 30],
 });
 
@@ -78,22 +78,6 @@ const redOptions = {
 const Map = () => {
   return (
     <>
-      <header
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          fontSize: 40,
-          margin:20
-        }}
-      >
-        <img src="images/logo.png" style={{ width: 50, marginRight: 10 }} />
-        <h1>
-          <span style={{ color: "blue" }}>Expo Line </span> and
-          <span style={{ color: "red" }}> Millenial Line</span>
-        </h1>
-      </header>
-
       <MapContainer
         style={{ height: "100vh" }}
         center={[49.24966, -123.0]}
